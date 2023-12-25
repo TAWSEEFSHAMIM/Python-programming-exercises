@@ -4,10 +4,10 @@
 # Then, the output should be:
 # ['34', '67', '55', '33', '12', '98']
 # ('34', '67', '55', '33', '12', '98')
-l=input()
-s=l.split(",")
-p=tuple(s)
-print(s)
-print(p)
+ItTakesInputAsString=input()
+ItBreaksStringAndStoreAsList = ItTakesInputAsString.split(",")
+ToStoreAsTuple=tuple(ItBreaksStringAndStoreAsList)
+print(ItBreaksStringAndStoreAsList)
+print(ToStoreAsTuple)
 # Mylist.append(s)
 # print(Mylist)
